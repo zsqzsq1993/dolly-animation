@@ -1,6 +1,6 @@
 {
   "name": "dolly-animation",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "common animation lib",
   "main": "dist/dolly-animation.cjs.js",
   "module": "dist/dolly-animation.esm.js",
