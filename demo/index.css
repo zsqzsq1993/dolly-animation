@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.demo-wrapper {
+    margin: 30px 30px;
+}
+
+.demo {
+    position: relative;
+    width: 102px;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+
