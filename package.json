@@ -16,7 +16,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test.server.js",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "release": "sh ./release.sh"
   },
   "files": [
     "dist"

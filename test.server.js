@@ -4,8 +4,8 @@ const app = express()
 
 const port = 8080
 
-app.use(express.static('./demo'))
+app.use(express.static(__dirname))
 
 app.listen(port, () => {
-    console.log(`listen on localhost:${port}`)
+    console.log(`listen on http://localhost:${port}/demo`)
 })
